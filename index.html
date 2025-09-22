@@ -204,7 +204,7 @@
   <hr />
 
   <section class="verified">
-    <a href="https://wa.me/5491162315972" target="_blank">
+    <a href="https://wa.me/5491160374772" target="_blank">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" width="50" height="50" />
     </a>
     <h2>✅ <b>Plataforma Verificada</b> ✅</h2>
@@ -216,9 +216,9 @@
   </div>
 
   <a class="whatsapp-button" 
-     href="https://wa.me/5491162315972?text=Quiero%20mi%20bono%20del%2050%25" 
+     href="https://wa.me/5491160374772?text=Quiero%20mi%20bono%20del%20100%25" 
      target="_blank">
-    <i class="fab fa-whatsapp"></i> ¡QUIERO MI BONO DEL 50%!
+    <i class="fab fa-whatsapp"></i> ¡QUIERO MI BONO DEL 100%!
   </a>
 
   <div class="clientes">
@@ -253,7 +253,7 @@
     function actualizarNotificacion() {
       const notifText = document.getElementById("notif-text");
       const premio = premios[indice % premios.length];
-      const posiciones = ['left', 'right', 'center'];
+      const posiciones = ['center'];
       const posicion = posiciones[indice % posiciones.length];
 
       notifText.className = '';
@@ -269,7 +269,7 @@
       indice++;
     }
 
-    setInterval(actualizarNotificacion, 10000);
+    setInterval(actualizarNotificacion, 5000);
     actualizarNotificacion();
 
     document.body.addEventListener('click', function () {
@@ -279,3 +279,4 @@
   </script>
 </body>
 </html>
+
